@@ -9,5 +9,5 @@ func NewGigachatDriver(token string) *GigachatDriver {
 }
 
 func (d *GigachatDriver) SendRequest(prompt string) (string, error) {
-	return "", nil
+	return "fallback answer", nil
 }
